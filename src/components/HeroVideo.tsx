@@ -23,19 +23,19 @@ const HeroVideo = () => {
         </video>
         <div className="hero__overlay"></div>
       </div>
-      <div className="hero__content text-center text-background">
-        <h1 className="display-5 mb-4 text-background font-bold">
-          Lift Your Energy.<br />
-          <span className="text-background">Quiet Your Mind.</span>
+      <div className="hero__content text-center">
+        <h1 className="display-5 mb-6 font-bold text-white drop-shadow-lg">
+          <span className="text-white text-shadow-md">Lift Your Energy.</span><br />
+          <span className="text-[hsl(47.12_72.24%_51.96%)] font-semibold drop-shadow-md">Quiet Your Mind.</span>
         </h1>
-        <p className="lead mb-6 text-background/90 max-w-md mx-auto">
+        <p className="lead mb-8 text-white/95 max-w-lg mx-auto drop-shadow-sm text-lg font-medium">
           Beat-driven Pilates and breath-led Yoga designed to harmonize your nervous system.
         </p>
-        <div className="flex flex-col sm:flex-row gap-4 justify-center mb-4">
+        <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
           <Button
             asChild
             size="lg"
-            className="bg-[hsl(47.12_72.24%_51.96%)] text-background hover:bg-[hsl(47.12_72.24%_45.96%)] border-[hsl(47.12_72.24%_51.96%)]"
+            className="bg-[hsl(47.12_72.24%_51.96%)] text-[hsl(342.35_9.6%_34.71%)] hover:bg-[hsl(47.12_72.24%_58%)] border-[hsl(47.12_72.24%_51.96%)] font-semibold text-lg px-8 py-4 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
           >
             <Link to="/schedule">See Schedule</Link>
           </Button>
@@ -43,14 +43,14 @@ const HeroVideo = () => {
             asChild
             size="lg"
             variant="outline"
-            className="border-background text-background hover:bg-background hover:text-foreground"
+            className="border-2 border-white/80 text-white hover:bg-white/10 hover:border-[hsl(47.12_72.24%_51.96%)] backdrop-blur-sm font-semibold text-lg px-8 py-4 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
           >
             <Link to="/membership">Membership &amp; Rates</Link>
           </Button>
         </div>
-        <div className="mt-2 text-sm opacity-90">
-          <div>You Belong Here</div>
-          <div>Start where you are</div>
+        <div className="mt-4 text-white/90 font-medium space-y-1">
+          <div className="text-lg">You Belong Here</div>
+          <div className="text-base text-[hsl(47.12_72.24%_51.96%)]">Start where you are</div>
         </div>
       </div>
     </section>
