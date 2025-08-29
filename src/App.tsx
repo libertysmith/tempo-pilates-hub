@@ -19,7 +19,7 @@ const App = () => (
       <Toaster />
       <Sonner />
       {/* GitHub Pages subpath */}
-      <BrowserRouter basename="/temple-flows">
+      <BrowserRouter basename="/tempo-pilates-hub">
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/membership" element={<Membership />} />
