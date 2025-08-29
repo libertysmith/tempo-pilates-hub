@@ -1,8 +1,7 @@
-// src/components/HeroVideo.tsx
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
 
-// Vite will prepend the correct base path (e.g., /tempo-pilates-hub/) at build time.
+// Vite will prepend the correct base path (e.g., /temple-flows/) at build time.
 const videoSrc = `${import.meta.env.BASE_URL}assets/hero.mp4`;
 const posterSrc = `${import.meta.env.BASE_URL}assets/img/hero-poster.jpg`; // optional
 
@@ -24,25 +23,21 @@ const HeroVideo = () => {
         </video>
         <div className="hero__overlay"></div>
       </div>
-
-      {/* 2.0 content container + classes, with 1.0 copy */}
       <div className="hero__content text-center text-background">
         <h1 className="display-5 mb-6 text-background font-bold">
           Lift Your Energy.<br />
-          <span>Quiet Your Mind.</span>
+          <span className="text-[hsl(47.12_72.24%_51.96%)]">Quiet Your Mind.</span>
         </h1>
-
         <p className="lead mb-8 text-background/90 max-w-md mx-auto">
-          Beat-driven Pilates. Breath-led Yoga.
+          Beat-driven Pilates and breath-led Yoga designed to harmonize your nervous system.
         </p>
-
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button
             asChild
             size="lg"
             className="bg-[hsl(47.12_72.24%_51.96%)] text-background hover:bg-[hsl(47.12_72.24%_45.96%)] border-[hsl(47.12_72.24%_51.96%)]"
           >
-            <Link to="/schedule">See Schedule</Link>
+            <Link to="/schedule">Book Your First Class</Link>
           </Button>
           <Button
             asChild
@@ -50,14 +45,8 @@ const HeroVideo = () => {
             variant="outline"
             className="border-background text-background hover:bg-background hover:text-foreground"
           >
-            <Link to="/membership">Membership &amp; Rates</Link>
+            <Link to="/membership">New Student Offers</Link>
           </Button>
-        </div>
-
-        {/* keep the supportive tags from 1.0 */}
-        <div className="mt-6 text-sm opacity-90">
-          <div>You Belong Here</div>
-          <div>Start where you are</div>
         </div>
       </div>
     </section>
