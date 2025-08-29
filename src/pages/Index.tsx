@@ -12,12 +12,12 @@ const Index = () => {
       <HeroVideo />
 
       {/* Two Practices Section */}
-      <section className="section">
+      <section className="section pt-8">
         <div className="container">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-6">Harmonize Mind, Body & Spirit</h2>
+            <h2 className="text-4xl font-bold mb-6">Two Practices. One Nervous System.</h2>
             <p className="text-xl text-foreground/80 max-w-2xl mx-auto">
-              Experience the profound connection between ancient eastern wisdom and modern movement science through our complementary practices.
+              Discover the perfect balance between energizing movement and calming practice.
             </p>
           </div>
           
@@ -29,7 +29,7 @@ const Index = () => {
                   <Sparkles className="h-12 w-12 text-primary mb-4" />
                   <h3 className="text-2xl font-bold mb-4">Mat Pilates</h3>
                   <p className="text-foreground/80 mb-6">
-                    Dynamic movement practice rooted in precision and control. Build physical strength while cultivating mental clarity through intentional, flowing sequences that connect breath to motion.
+                    Fast-paced, beat-driven music to stimulate focus, confidence, and engagement. Experience crisp flows with curated playlists for a confident finish.
                   </p>
                 </div>
                 <ul className="space-y-3 mb-8">
@@ -47,7 +47,7 @@ const Index = () => {
                   </li>
                   <li className="flex items-center">
                     <div className="w-2 h-2 rounded-full bg-[hsl(47.12_72.24%_51.96%)] mr-3"></div>
-                    <span>Activates mind-body connection</span>
+                    <span>Energizing beat-driven experience</span>
                   </li>
                 </ul>
                 <blockquote className="text-lg font-medium text-primary border-l-4 border-[hsl(47.12_72.24%_51.96%)] pl-4">
@@ -63,7 +63,7 @@ const Index = () => {
                   <Heart className="h-12 w-12 text-primary mb-4" />
                   <h3 className="text-2xl font-bold mb-4">Yoga</h3>
                   <p className="text-foreground/80 mb-6">
-                    Ancient eastern practice harmonizing breath, movement, and meditation. Cultivate inner peace while building flexibility, balance, and deep awareness of your body's natural wisdom.
+                    Slow, breath-led practice with grounding music to release stress and calm anxiety. Spacious pacing for a quieter mind.
                   </p>
                 </div>
                 <ul className="space-y-3 mb-8">
@@ -81,7 +81,7 @@ const Index = () => {
                   </li>
                   <li className="flex items-center">
                     <div className="w-2 h-2 rounded-full bg-[hsl(47.12_72.24%_51.96%)] mr-3"></div>
-                    <span>Connects you to ancient wisdom</span>
+                    <span>Breath-led nervous system reset</span>
                   </li>
                 </ul>
                 <blockquote className="text-lg font-medium text-primary border-l-4 border-[hsl(47.12_72.24%_51.96%)] pl-4">
@@ -98,36 +98,36 @@ const Index = () => {
         <div className="container">
           <div className="text-center mb-12">
             <Music className="h-16 w-16 text-[hsl(47.12_72.24%_51.96%)] mx-auto mb-6" />
-            <h2 className="text-4xl font-bold mb-6">Sound as Sacred Medicine</h2>
+            <h2 className="text-4xl font-bold mb-6">Music is a Wellness Tool</h2>
             <p className="text-xl text-foreground/80 max-w-3xl mx-auto mb-8">
-              Following eastern traditions that honor sound as healing, our carefully curated soundscapes support your practice. Rhythmic beats activate energy channels, while meditative tones calm the nervous system and restore balance.
+              Our culturally rotating playlists are intentionally curated for each practice. Energizing beats for Pilates to stimulate focus, calming melodies for Yoga to soothe the nervous system.
             </p>
           </div>
           
           <div className="grid md:grid-cols-3 gap-8">
             <Card className="text-center bg-background/50 border-[hsl(47.12_72.24%_51.96%)]/20 shadow-sm hover:shadow-md transition-shadow">
               <CardContent className="p-6">
-                <h4 className="font-semibold mb-3 text-[hsl(47.12_72.24%_51.96%)]">Energizing Rhythms</h4>
+                <h4 className="font-semibold mb-3 text-[hsl(47.12_72.24%_51.96%)]">Pilates Playlists</h4>
                 <p className="text-sm text-foreground/80">
-                  Carefully selected beats that activate your energy centers and support dynamic movement flow.
+                  High-energy, beat-driven tracks to match your movement and elevate your practice.
                 </p>
               </CardContent>
             </Card>
             
             <Card className="text-center bg-background/50 border-[hsl(47.12_72.24%_51.96%)]/20 shadow-sm hover:shadow-md transition-shadow">
               <CardContent className="p-6">
-                <h4 className="font-semibold mb-3 text-[hsl(47.12_72.24%_51.96%)]">Meditative Soundscapes</h4>
+                <h4 className="font-semibold mb-3 text-[hsl(47.12_72.24%_51.96%)]">Yoga Soundscapes</h4>
                 <p className="text-sm text-foreground/80">
-                  Ancient instruments and natural sounds that guide you into deeper states of awareness and relaxation.
+                  Grounding, breath-paced music designed to calm your nervous system and center your mind.
                 </p>
               </CardContent>
             </Card>
             
             <Card className="text-center bg-background/50 border-[hsl(47.12_72.24%_51.96%)]/20 shadow-sm hover:shadow-md transition-shadow">
               <CardContent className="p-6">
-                <h4 className="font-semibold mb-3 text-[hsl(47.12_72.24%_51.96%)]">Healing Frequencies</h4>
+                <h4 className="font-semibold mb-3 text-[hsl(47.12_72.24%_51.96%)]">Cultural Rotation</h4>
                 <p className="text-sm text-foreground/80">
-                  Sound therapy techniques integrated into practice to promote cellular healing and emotional release.
+                  Celebrating diverse artists and musical traditions that honor our inclusive community.
                 </p>
               </CardContent>
             </Card>

@@ -24,20 +24,20 @@ const HeroVideo = () => {
         <div className="hero__overlay"></div>
       </div>
       <div className="hero__content text-center text-background">
-        <h1 className="display-5 mb-6 text-background font-bold">
+        <h1 className="display-5 mb-4 text-background font-bold">
           Lift Your Energy.<br />
-          <span className="text-[hsl(47.12_72.24%_51.96%)]">Quiet Your Mind.</span>
+          <span className="text-background">Quiet Your Mind.</span>
         </h1>
-        <p className="lead mb-8 text-background/90 max-w-md mx-auto">
+        <p className="lead mb-6 text-background/90 max-w-md mx-auto">
           Beat-driven Pilates and breath-led Yoga designed to harmonize your nervous system.
         </p>
-        <div className="flex flex-col sm:flex-row gap-4 justify-center">
+        <div className="flex flex-col sm:flex-row gap-4 justify-center mb-4">
           <Button
             asChild
             size="lg"
             className="bg-[hsl(47.12_72.24%_51.96%)] text-background hover:bg-[hsl(47.12_72.24%_45.96%)] border-[hsl(47.12_72.24%_51.96%)]"
           >
-            <Link to="/schedule">Book Your First Class</Link>
+            <Link to="/schedule">See Schedule</Link>
           </Button>
           <Button
             asChild
@@ -45,8 +45,12 @@ const HeroVideo = () => {
             variant="outline"
             className="border-background text-background hover:bg-background hover:text-foreground"
           >
-            <Link to="/membership">New Student Offers</Link>
+            <Link to="/membership">Membership &amp; Rates</Link>
           </Button>
+        </div>
+        <div className="mt-2 text-sm opacity-90">
+          <div>You Belong Here</div>
+          <div>Start where you are</div>
         </div>
       </div>
     </section>
