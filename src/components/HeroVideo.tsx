@@ -1,3 +1,4 @@
+
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
 
@@ -31,7 +32,7 @@ const HeroVideo = () => {
         <p className="lead mb-8 text-[hsl(45_74%_92%)] max-w-lg mx-auto drop-shadow-sm text-xl font-medium">
           Beat-driven Pilates and breath-led Yoga designed to harmonize your nervous system.
         </p>
-        <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
+        <div className="flex flex-col sm:flex-row gap-4 justify-center mb-4">
           <Button
             asChild
             size="lg"
@@ -48,9 +49,8 @@ const HeroVideo = () => {
             <Link to="/membership">Membership &amp; Rates</Link>
           </Button>
         </div>
-        <div className="mt-4 font-medium space-y-1">
+        <div className="mt-2 font-medium">
           <div className="text-lg text-[hsl(45_74%_92%)] drop-shadow-sm">You Belong Here</div>
-          <div className="text-base text-[hsl(47.12_72.24%_51.96%)] font-semibold">Start where you are</div>
         </div>
       </div>
     </section>
