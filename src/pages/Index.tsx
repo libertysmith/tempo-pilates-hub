@@ -15,9 +15,9 @@ const Index = () => {
       <section className="section">
         <div className="container">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-6">Two Practices. One Nervous System.</h2>
+            <h2 className="text-4xl font-bold mb-6">Harmonize Mind, Body & Spirit</h2>
             <p className="text-xl text-foreground/80 max-w-2xl mx-auto">
-              Discover the perfect balance between energizing movement and calming practice.
+              Experience the profound connection between ancient eastern wisdom and modern movement science through our complementary practices.
             </p>
           </div>
           
@@ -29,29 +29,28 @@ const Index = () => {
                   <Sparkles className="h-12 w-12 text-primary mb-4" />
                   <h3 className="text-2xl font-bold mb-4">Mat Pilates</h3>
                   <p className="text-foreground/80 mb-6">
-                    Fast-paced, beat-driven music to stimulate focus, confidence, and engagement. 
-                    Experience crisp flows with curated playlists for a confident finish.
+                    Dynamic movement practice rooted in precision and control. Build physical strength while cultivating mental clarity through intentional, flowing sequences that connect breath to motion.
                   </p>
                 </div>
                 <ul className="space-y-3 mb-8">
                   <li className="flex items-center">
-                    <div className="w-2 h-2 rounded-full bg-primary mr-3"></div>
+                    <div className="w-2 h-2 rounded-full bg-[hsl(47.12_72.24%_51.96%)] mr-3"></div>
                     <span>Builds core strength and stability</span>
                   </li>
                   <li className="flex items-center">
-                    <div className="w-2 h-2 rounded-full bg-primary mr-3"></div>
+                    <div className="w-2 h-2 rounded-full bg-[hsl(47.12_72.24%_51.96%)] mr-3"></div>
                     <span>Improves posture and alignment</span>
                   </li>
                   <li className="flex items-center">
-                    <div className="w-2 h-2 rounded-full bg-primary mr-3"></div>
+                    <div className="w-2 h-2 rounded-full bg-[hsl(47.12_72.24%_51.96%)] mr-3"></div>
                     <span>Enhances focus and mental clarity</span>
                   </li>
                   <li className="flex items-center">
-                    <div className="w-2 h-2 rounded-full bg-primary mr-3"></div>
-                    <span>Energizing beat-driven experience</span>
+                    <div className="w-2 h-2 rounded-full bg-[hsl(47.12_72.24%_51.96%)] mr-3"></div>
+                    <span>Activates mind-body connection</span>
                   </li>
                 </ul>
-                <blockquote className="text-lg font-medium text-primary border-l-4 border-accent pl-4">
+                <blockquote className="text-lg font-medium text-primary border-l-4 border-[hsl(47.12_72.24%_51.96%)] pl-4">
                   "My energy feels lifted after Pilates."
                 </blockquote>
               </CardContent>
@@ -64,29 +63,28 @@ const Index = () => {
                   <Heart className="h-12 w-12 text-primary mb-4" />
                   <h3 className="text-2xl font-bold mb-4">Yoga</h3>
                   <p className="text-foreground/80 mb-6">
-                    Slow, breath-led practice with grounding music to release stress and calm anxiety. 
-                    Spacious pacing for a quieter mind.
+                    Ancient eastern practice harmonizing breath, movement, and meditation. Cultivate inner peace while building flexibility, balance, and deep awareness of your body's natural wisdom.
                   </p>
                 </div>
                 <ul className="space-y-3 mb-8">
                   <li className="flex items-center">
-                    <div className="w-2 h-2 rounded-full bg-primary mr-3"></div>
+                    <div className="w-2 h-2 rounded-full bg-[hsl(47.12_72.24%_51.96%)] mr-3"></div>
                     <span>Reduces stress and anxiety</span>
                   </li>
                   <li className="flex items-center">
-                    <div className="w-2 h-2 rounded-full bg-primary mr-3"></div>
+                    <div className="w-2 h-2 rounded-full bg-[hsl(47.12_72.24%_51.96%)] mr-3"></div>
                     <span>Improves flexibility and mobility</span>
                   </li>
                   <li className="flex items-center">
-                    <div className="w-2 h-2 rounded-full bg-primary mr-3"></div>
+                    <div className="w-2 h-2 rounded-full bg-[hsl(47.12_72.24%_51.96%)] mr-3"></div>
                     <span>Promotes deep relaxation</span>
                   </li>
                   <li className="flex items-center">
-                    <div className="w-2 h-2 rounded-full bg-primary mr-3"></div>
-                    <span>Breath-led nervous system reset</span>
+                    <div className="w-2 h-2 rounded-full bg-[hsl(47.12_72.24%_51.96%)] mr-3"></div>
+                    <span>Connects you to ancient wisdom</span>
                   </li>
                 </ul>
-                <blockquote className="text-lg font-medium text-primary border-l-4 border-accent pl-4">
+                <blockquote className="text-lg font-medium text-primary border-l-4 border-[hsl(47.12_72.24%_51.96%)] pl-4">
                   "My mind feels quiet after yoga."
                 </blockquote>
               </CardContent>
@@ -99,38 +97,37 @@ const Index = () => {
       <section className="section section--secondary">
         <div className="container">
           <div className="text-center mb-12">
-            <Music className="h-16 w-16 text-primary mx-auto mb-6" />
-            <h2 className="text-4xl font-bold mb-6">Music is a Wellness Tool</h2>
+            <Music className="h-16 w-16 text-[hsl(47.12_72.24%_51.96%)] mx-auto mb-6" />
+            <h2 className="text-4xl font-bold mb-6">Sound as Sacred Medicine</h2>
             <p className="text-xl text-foreground/80 max-w-3xl mx-auto mb-8">
-              Our culturally rotating playlists are intentionally curated for each practice. 
-              Energizing beats for Pilates to stimulate focus, calming melodies for Yoga to soothe the nervous system.
+              Following eastern traditions that honor sound as healing, our carefully curated soundscapes support your practice. Rhythmic beats activate energy channels, while meditative tones calm the nervous system and restore balance.
             </p>
           </div>
           
           <div className="grid md:grid-cols-3 gap-8">
-            <Card className="text-center bg-background/50 border-accent/20">
+            <Card className="text-center bg-background/50 border-[hsl(47.12_72.24%_51.96%)]/20 shadow-sm hover:shadow-md transition-shadow">
               <CardContent className="p-6">
-                <h4 className="font-semibold mb-3">Pilates Playlists</h4>
+                <h4 className="font-semibold mb-3 text-[hsl(47.12_72.24%_51.96%)]">Energizing Rhythms</h4>
                 <p className="text-sm text-foreground/80">
-                  High-energy, beat-driven tracks to match your movement and elevate your practice.
+                  Carefully selected beats that activate your energy centers and support dynamic movement flow.
                 </p>
               </CardContent>
             </Card>
             
-            <Card className="text-center bg-background/50 border-accent/20">
+            <Card className="text-center bg-background/50 border-[hsl(47.12_72.24%_51.96%)]/20 shadow-sm hover:shadow-md transition-shadow">
               <CardContent className="p-6">
-                <h4 className="font-semibold mb-3">Yoga Soundscapes</h4>
+                <h4 className="font-semibold mb-3 text-[hsl(47.12_72.24%_51.96%)]">Meditative Soundscapes</h4>
                 <p className="text-sm text-foreground/80">
-                  Grounding, breath-paced music designed to calm your nervous system and center your mind.
+                  Ancient instruments and natural sounds that guide you into deeper states of awareness and relaxation.
                 </p>
               </CardContent>
             </Card>
             
-            <Card className="text-center bg-background/50 border-accent/20">
+            <Card className="text-center bg-background/50 border-[hsl(47.12_72.24%_51.96%)]/20 shadow-sm hover:shadow-md transition-shadow">
               <CardContent className="p-6">
-                <h4 className="font-semibold mb-3">Cultural Rotation</h4>
+                <h4 className="font-semibold mb-3 text-[hsl(47.12_72.24%_51.96%)]">Healing Frequencies</h4>
                 <p className="text-sm text-foreground/80">
-                  Celebrating diverse artists and musical traditions that honor our inclusive community.
+                  Sound therapy techniques integrated into practice to promote cellular healing and emotional release.
                 </p>
               </CardContent>
             </Card>
@@ -138,68 +135,65 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Designed to Belong Section */}
+      {/* Prime Carrollton Location Section */}
       <section className="section">
         <div className="container">
           <div className="text-center mb-16">
-            <Users className="h-16 w-16 text-primary mx-auto mb-6" />
-            <h2 className="text-4xl font-bold mb-6">Designed to Belong</h2>
+            <Users className="h-16 w-16 text-[hsl(47.12_72.24%_51.96%)] mx-auto mb-6" />
+            <h2 className="text-4xl font-bold mb-6">Prime Carrollton Location</h2>
             <p className="text-xl text-foreground/80 max-w-3xl mx-auto mb-8">
-              Our modern sanctuary welcomes every body and every story. Experience thoughtful design 
-              that centers community, inclusivity, and authentic wellness.
+              Perfectly positioned in the heart of North Texas, our studio offers unmatched convenience and accessibility. Located in the vibrant Great Oasis shopping center with easy highway access and cultural connections.
             </p>
           </div>
           
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <h3 className="text-2xl font-bold mb-6">A Space That Holds You</h3>
+              <h3 className="text-2xl font-bold mb-6">Perfectly Connected</h3>
               <div className="space-y-4 mb-8">
                 <p className="text-foreground/80">
-                  Soft eggshell walls meet sage green accents and warm gold details. Natural light filters 
-                  through thoughtfully placed windows, creating an atmosphere of calm and clarity.
+                  Experience ultimate convenience with our strategic Carrollton location. Whether commuting from Dallas or the northern suburbs, you'll find us easily accessible with major highways just minutes away.
                 </p>
                 <p className="text-foreground/80">
-                  Every element—from the sustainably sourced props to the carefully curated scents—is 
-                  chosen to support your practice and honor your presence.
+                  Immerse yourself in a culturally rich area with authentic Asian markets and dining options nearby, creating a holistic wellness experience that extends beyond our studio walls.
                 </p>
               </div>
               
               <div className="flex flex-wrap gap-3 mb-8">
-                <span className="tag">You Belong Here</span>
-                <span className="tag">Start where you are</span>
+                <span className="tag">Convenient Access</span>
+                <span className="tag">Cultural Hub</span>
               </div>
               
-              <Button asChild variant="outline">
-                <Link to="/about">Learn Our Story</Link>
+              <Button asChild variant="outline" className="border-[hsl(47.12_72.24%_51.96%)] text-[hsl(47.12_72.24%_51.96%)] hover:bg-[hsl(47.12_72.24%_51.96%)] hover:text-background">
+                <Link to="/about#story">Learn Our Story</Link>
               </Button>
             </div>
             
             <div className="grid grid-cols-2 gap-4">
-              <Card className="bg-secondary/30 border-accent/20 p-6">
-                <h4 className="font-semibold mb-2">Women-Forward</h4>
+              <Card className="bg-secondary/30 border-[hsl(47.12_72.24%_51.96%)]/30 p-6 shadow-sm">
+                <h4 className="font-semibold mb-2 text-[hsl(47.12_72.24%_51.96%)]">Highway Access</h4>
                 <p className="text-sm text-foreground/80">
-                  Created by women, for all bodies seeking authentic wellness and community.
+                  5 minutes from George Bush Turnpike and 10 minutes from I35E for seamless commuting.
                 </p>
               </Card>
               
-              <Card className="bg-secondary/30 border-accent/20 p-6">
-                <h4 className="font-semibold mb-2">AAPI-Inclusive</h4>
+              <Card className="bg-secondary/30 border-[hsl(47.12_72.24%_51.96%)]/30 p-6 shadow-sm">
+                <h4 className="font-semibold mb-2 text-[hsl(47.12_72.24%_51.96%)]">Cultural Connection</h4>
                 <p className="text-sm text-foreground/80">
-                  Celebrating and centering Asian American Pacific Islander voices and traditions.
+                  5 minutes from H-mart and K-town, connecting you to authentic Asian culture and cuisine.
                 </p>
               </Card>
               
-              <Card className="bg-secondary/30 border-accent/20 p-6">
-                <h4 className="font-semibold mb-2">Fragrance-Light</h4>
+              <Card className="bg-secondary/30 border-[hsl(47.12_72.24%_51.96%)]/30 p-6 shadow-sm">
+                <h4 className="font-semibold mb-2 text-[hsl(47.12_72.24%_51.96%)]">Great Oasis Center</h4>
                 <p className="text-sm text-foreground/80">
-                  Mindful of chemical sensitivities, creating a space for all to breathe freely.
+                  Located in Carrollton's up-and-coming premier shopping and wellness destination.
                 </p>
               </Card>
               
-              <Card className="bg-secondary/30 border-accent/20 p-6">
-                <h4 className="font-semibold mb-2">Accessible Design</h4>
+              <Card className="bg-secondary/30 border-[hsl(47.12_72.24%_51.96%)]/30 p-6 shadow-sm">
+                <h4 className="font-semibold mb-2 text-[hsl(47.12_72.24%_51.96%)]">Community Hub</h4>
                 <p className="text-sm text-foreground/80">
-                  Thoughtful modifications and clear pathways welcome every body and ability.
+                  Surrounded by complementary wellness services and healthy dining options.
                 </p>
               </Card>
             </div>

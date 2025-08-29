@@ -33,68 +33,66 @@ const About = () => {
         <div className="container text-center">
           <h1 className="text-5xl font-bold mb-6">About Tempo Pilates</h1>
           <p className="text-xl text-foreground/80 max-w-2xl mx-auto mb-8">
-            A modern sanctuary for movement, community, and authentic wellness. 
-            Created by women, for all bodies seeking belonging.
+            A modern sanctuary where eastern wellness traditions meet contemporary movement science. 
+            Discover the profound connection between mind, body, and spirit.
           </p>
           <div className="flex flex-wrap gap-3 justify-center">
-            <span className="tag">You Belong Here</span>
-            <span className="tag">Start where you are</span>
+            <span className="tag">Ancient Wisdom</span>
+            <span className="tag">Modern Practice</span>
           </div>
         </div>
       </section>
 
       {/* Our Story */}
-      <section className="section">
+      <section className="section" id="story">
         <div className="container">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div>
               <h2 className="text-3xl font-bold mb-6">Our Story</h2>
               <div className="space-y-6 text-foreground/80">
                 <p>
-                  Tempo Pilates was born from a simple belief: movement should feel like medicine, 
-                  and wellness spaces should welcome every body and every story.
+                  Tempo Pilates was born from a deep reverence for the ancient wisdom of eastern wellness practices 
+                  and their profound ability to heal and harmonize the human experience.
                 </p>
                 <p>
-                  Founded by women who understand the power of inclusive community, we created a 
-                  modern sanctuary that honors both the science of movement and the art of belonging. 
-                  Our practices are designed to work together—energizing Pilates to lift your spirit, 
-                  calming yoga to quiet your mind.
+                  Our sanctuary honors the sacred connection between breath, movement, and consciousness. 
+                  Through the precision of Pilates and the meditative flow of yoga, we create a space where 
+                  the nervous system can find its natural rhythm between activation and rest.
                 </p>
                 <p>
-                  We center AAPI voices and women-led wellness, celebrating the rich traditions 
-                  that have shaped healing arts for generations. Every detail, from our carefully 
-                  curated music to our thoughtful design, reflects our commitment to authentic, 
-                  accessible wellness.
+                  Every element of our practice is rooted in the understanding that true wellness emerges when we 
+                  honor both the body's need for strength and the spirit's call for peace. Here, ancient traditions 
+                  meet modern movement science to support your journey toward wholeness.
                 </p>
               </div>
             </div>
             <div className="grid grid-cols-2 gap-6">
-              <Card className="bg-secondary/30 border-accent/20 p-6">
-                <Heart className="h-8 w-8 text-primary mb-3" />
-                <h4 className="font-semibold mb-2">Women-Forward</h4>
+              <Card className="bg-secondary/30 border-[hsl(47.12_72.24%_51.96%)]/30 p-6 shadow-sm">
+                <Heart className="h-8 w-8 text-[hsl(47.12_72.24%_51.96%)] mb-3" />
+                <h4 className="font-semibold mb-2">Mind-Body Unity</h4>
                 <p className="text-sm text-foreground/80">
-                  Created by women who understand the unique wellness needs of our community.
+                  Honoring the sacred connection between mental clarity and physical wellness.
                 </p>
               </Card>
-              <Card className="bg-secondary/30 border-accent/20 p-6">
-                <Users className="h-8 w-8 text-primary mb-3" />
-                <h4 className="font-semibold mb-2">AAPI-Inclusive</h4>
+              <Card className="bg-secondary/30 border-[hsl(47.12_72.24%_51.96%)]/30 p-6 shadow-sm">
+                <Users className="h-8 w-8 text-[hsl(47.12_72.24%_51.96%)] mb-3" />
+                <h4 className="font-semibold mb-2">Eastern Traditions</h4>
                 <p className="text-sm text-foreground/80">
-                  Celebrating and centering Asian American Pacific Islander traditions and voices.
+                  Celebrating ancient wisdom and time-tested practices for holistic healing.
                 </p>
               </Card>
-              <Card className="bg-secondary/30 border-accent/20 p-6">
-                <Leaf className="h-8 w-8 text-primary mb-3" />
-                <h4 className="font-semibold mb-2">Thoughtful Design</h4>
+              <Card className="bg-secondary/30 border-[hsl(47.12_72.24%_51.96%)]/30 p-6 shadow-sm">
+                <Leaf className="h-8 w-8 text-[hsl(47.12_72.24%_51.96%)] mb-3" />
+                <h4 className="font-semibold mb-2">Conscious Movement</h4>
                 <p className="text-sm text-foreground/80">
-                  Every element chosen to support your practice and honor your presence.
+                  Every posture and breath intentionally designed to support your wellbeing journey.
                 </p>
               </Card>
-              <Card className="bg-secondary/30 border-accent/20 p-6">
-                <Sparkles className="h-8 w-8 text-primary mb-3" />
-                <h4 className="font-semibold mb-2">Physical Fitness</h4>
+              <Card className="bg-secondary/30 border-[hsl(47.12_72.24%_51.96%)]/30 p-6 shadow-sm">
+                <Sparkles className="h-8 w-8 text-[hsl(47.12_72.24%_51.96%)] mb-3" />
+                <h4 className="font-semibold mb-2">Energy Cultivation</h4>
                 <p className="text-sm text-foreground/80">
-                  Build strength, flexibility, and endurance through our dynamic movement practices.
+                  Build vitality and inner strength through practices that honor your body's wisdom.
                 </p>
               </Card>
             </div>
@@ -106,46 +104,46 @@ const About = () => {
       <section className="section section--secondary">
         <div className="container">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold mb-6">A Space That Holds You</h2>
+            <h2 className="text-3xl font-bold mb-6">Your Carrollton Sanctuary</h2>
             <p className="text-xl text-foreground/80 max-w-3xl mx-auto">
-              Our modern sanctuary design reflects our values: soft eggshell base with sage green, 
-              warm gold, and gentle pink accents create an atmosphere of calm and clarity.
+              Experience the perfect fusion of eastern design principles and modern comfort. Our Carrollton location 
+              offers the ultimate in convenience while honoring the sacred space needed for transformation.
             </p>
           </div>
           
           <div className="grid md:grid-cols-3 gap-8">
-            <Card className="text-center bg-background/50 border-accent/20">
+            <Card className="text-center bg-background/50 border-[hsl(47.12_72.24%_51.96%)]/20 shadow-sm">
               <CardContent className="p-6">
-                <div className="w-16 h-16 rounded-full bg-primary/20 flex items-center justify-center mx-auto mb-4">
-                  <Leaf className="h-8 w-8 text-primary" />
+                <div className="w-16 h-16 rounded-full bg-[hsl(47.12_72.24%_51.96%)]/20 flex items-center justify-center mx-auto mb-4">
+                  <Leaf className="h-8 w-8 text-[hsl(47.12_72.24%_51.96%)]" />
                 </div>
-                <h3 className="text-lg font-semibold mb-3">Natural Elements</h3>
+                <h3 className="text-lg font-semibold mb-3 text-[hsl(47.12_72.24%_51.96%)]">Highway Convenience</h3>
                 <p className="text-sm text-foreground/80">
-                  Sustainably sourced props, living plants, and natural light create a connection to earth and breath.
+                  Strategic location with easy access from George Bush Turnpike and I35E, perfect for busy schedules.
                 </p>
               </CardContent>
             </Card>
             
-            <Card className="text-center bg-background/50 border-accent/20">
+            <Card className="text-center bg-background/50 border-[hsl(47.12_72.24%_51.96%)]/20 shadow-sm">
               <CardContent className="p-6">
-                <div className="w-16 h-16 rounded-full bg-primary/20 flex items-center justify-center mx-auto mb-4">
-                  <Heart className="h-8 w-8 text-primary" />
+                <div className="w-16 h-16 rounded-full bg-[hsl(47.12_72.24%_51.96%)]/20 flex items-center justify-center mx-auto mb-4">
+                  <Heart className="h-8 w-8 text-[hsl(47.12_72.24%_51.96%)]" />
                 </div>
-                <h3 className="text-lg font-semibold mb-3">Fragrance-Light</h3>
+                <h3 className="text-lg font-semibold mb-3 text-[hsl(47.12_72.24%_51.96%)]">Cultural Richness</h3>
                 <p className="text-sm text-foreground/80">
-                  Mindful of chemical sensitivities, we maintain a clean, breathable environment for all bodies.
+                  Surrounded by authentic Asian markets and dining, creating a complete wellness lifestyle experience.
                 </p>
               </CardContent>
             </Card>
             
-            <Card className="text-center bg-background/50 border-accent/20">
+            <Card className="text-center bg-background/50 border-[hsl(47.12_72.24%_51.96%)]/20 shadow-sm">
               <CardContent className="p-6">
-                <div className="w-16 h-16 rounded-full bg-primary/20 flex items-center justify-center mx-auto mb-4">
-                  <Sparkles className="h-8 w-8 text-primary" />
+                <div className="w-16 h-16 rounded-full bg-[hsl(47.12_72.24%_51.96%)]/20 flex items-center justify-center mx-auto mb-4">
+                  <Sparkles className="h-8 w-8 text-[hsl(47.12_72.24%_51.96%)]" />
                 </div>
-                <h3 className="text-lg font-semibold mb-3">Thoughtful Details</h3>
+                <h3 className="text-lg font-semibold mb-3 text-[hsl(47.12_72.24%_51.96%)]">Great Oasis Center</h3>
                 <p className="text-sm text-foreground/80">
-                  From curated scents to accessible pathways, every detail supports your practice and comfort.
+                  Part of Carrollton's premier wellness and shopping destination, surrounded by like-minded businesses.
                 </p>
               </CardContent>
             </Card>
@@ -159,30 +157,30 @@ const About = () => {
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div className="order-2 lg:order-1">
               <div className="grid grid-cols-2 gap-6">
-                <Card className="bg-secondary/30 border-accent/20 p-6">
-                  <Coffee className="h-8 w-8 text-primary mb-3" />
-                  <h4 className="font-semibold mb-2">Photo Nook</h4>
+                <Card className="bg-secondary/30 border-[hsl(47.12_72.24%_51.96%)]/30 p-6 shadow-sm">
+                  <Coffee className="h-8 w-8 text-[hsl(47.12_72.24%_51.96%)] mb-3" />
+                  <h4 className="font-semibold mb-2 text-[hsl(47.12_72.24%_51.96%)]">Photo Nook</h4>
                   <p className="text-sm text-foreground/80">
                     Beautiful natural lighting perfect for celebrating your practice journey.
                   </p>
                 </Card>
-                <Card className="bg-secondary/30 border-accent/20 p-6">
-                  <Heart className="h-8 w-8 text-primary mb-3" />
-                  <h4 className="font-semibold mb-2">Intention Board</h4>
+                <Card className="bg-secondary/30 border-[hsl(47.12_72.24%_51.96%)]/30 p-6 shadow-sm">
+                  <Heart className="h-8 w-8 text-[hsl(47.12_72.24%_51.96%)] mb-3" />
+                  <h4 className="font-semibold mb-2 text-[hsl(47.12_72.24%_51.96%)]">Intention Board</h4>
                   <p className="text-sm text-foreground/80">
                     Seasonal themes for setting and sharing your wellness intentions with community.
                   </p>
                 </Card>
-                <Card className="bg-secondary/30 border-accent/20 p-6">
-                  <ShoppingBag className="h-8 w-8 text-primary mb-3" />
-                  <h4 className="font-semibold mb-2">Retail Corner</h4>
+                <Card className="bg-secondary/30 border-[hsl(47.12_72.24%_51.96%)]/30 p-6 shadow-sm">
+                  <ShoppingBag className="h-8 w-8 text-[hsl(47.12_72.24%_51.96%)] mb-3" />
+                  <h4 className="font-semibold mb-2 text-[hsl(47.12_72.24%_51.96%)]">Retail Corner</h4>
                   <p className="text-sm text-foreground/80">
-                    Curated wellness products from local AAPI and women-owned brands.
+                    Curated wellness products from local AAPI and women owned brands.
                   </p>
                 </Card>
-                <Card className="bg-secondary/30 border-accent/20 p-6">
-                  <Users className="h-8 w-8 text-primary mb-3" />
-                  <h4 className="font-semibold mb-2">Pop-Up Events</h4>
+                <Card className="bg-secondary/30 border-[hsl(47.12_72.24%_51.96%)]/30 p-6 shadow-sm">
+                  <Users className="h-8 w-8 text-[hsl(47.12_72.24%_51.96%)] mb-3" />
+                  <h4 className="font-semibold mb-2 text-[hsl(47.12_72.24%_51.96%)]">Pop-Up Events</h4>
                   <p className="text-sm text-foreground/80">
                     Regular collaborations with local wellness and AAPI community leaders.
                   </p>
@@ -197,9 +195,9 @@ const About = () => {
                   lounge space encourages connection and celebrates the local wellness ecosystem.
                 </p>
                 <p>
-                  We regularly host pop-up events with local AAPI and women-owned wellness brands, 
+                  We regularly host pop-up events with local AAPI and women owned wellness brands, 
                   creating opportunities for community members to discover new products and connect 
-                  with like-minded entrepreneurs.
+                  with like minded entrepreneurs.
                 </p>
                 <p>
                   Our seasonal intention board invites you to set and share your wellness goals, 
@@ -207,7 +205,7 @@ const About = () => {
                 </p>
               </div>
               <div className="mt-8">
-                <Button asChild variant="outline">
+                <Button asChild variant="outline" className="border-[hsl(47.12_72.24%_51.96%)] text-[hsl(47.12_72.24%_51.96%)] hover:bg-[hsl(47.12_72.24%_51.96%)] hover:text-background">
                   <Link to="/schedule">Visit Our Community</Link>
                 </Button>
               </div>
@@ -228,17 +226,17 @@ const About = () => {
           
           <div className="grid md:grid-cols-3 gap-8">
             {instructors.map((instructor) => (
-              <Card key={instructor.name} className="bg-background/80 border-accent/20">
+              <Card key={instructor.name} className="bg-background/80 border-[hsl(47.12_72.24%_51.96%)]/20 shadow-sm">
                 <CardContent className="p-6 text-center">
-                  <div className="w-24 h-24 rounded-full bg-primary/20 mx-auto mb-4 flex items-center justify-center">
-                    <Heart className="h-12 w-12 text-primary" />
+                  <div className="w-24 h-24 rounded-full bg-[hsl(47.12_72.24%_51.96%)]/20 mx-auto mb-4 flex items-center justify-center">
+                    <Heart className="h-12 w-12 text-[hsl(47.12_72.24%_51.96%)]" />
                   </div>
                   <h3 className="text-xl font-bold mb-2">{instructor.name}</h3>
-                  <p className="text-primary font-medium mb-4">{instructor.title}</p>
+                  <p className="text-[hsl(47.12_72.24%_51.96%)] font-medium mb-4">{instructor.title}</p>
                   <p className="text-foreground/80 text-sm mb-4">{instructor.bio}</p>
                   <div className="flex flex-wrap gap-2 justify-center">
                     {instructor.specialties.map((specialty) => (
-                      <span key={specialty} className="px-3 py-1 bg-accent/20 text-xs rounded-full">
+                      <span key={specialty} className="px-3 py-1 bg-[hsl(47.12_72.24%_51.96%)]/20 text-xs rounded-full">
                         {specialty}
                       </span>
                     ))}
@@ -258,10 +256,10 @@ const About = () => {
             Join our community of movers, breathers, and seekers. Your practice, your pace, your belonging.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button asChild size="lg">
+            <Button asChild size="lg" className="bg-[hsl(47.12_72.24%_51.96%)] text-background hover:bg-[hsl(47.12_72.24%_45.96%)]">
               <Link to="/schedule">Book Your First Class</Link>
             </Button>
-            <Button asChild size="lg" variant="outline">
+            <Button asChild size="lg" variant="outline" className="border-[hsl(47.12_72.24%_51.96%)] text-[hsl(47.12_72.24%_51.96%)] hover:bg-[hsl(47.12_72.24%_51.96%)] hover:text-background">
               <Link to="/membership">View New Student Offers</Link>
             </Button>
           </div>

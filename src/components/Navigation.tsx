@@ -3,6 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
+import Logo from '@/components/Logo';
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -27,8 +28,8 @@ const Navigation = () => {
       <div className="container">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2">
-            <span className="text-xl font-bold text-foreground">Tempo Pilates</span>
+          <Link to="/" className="hover:opacity-90 transition-opacity">
+            <Logo />
           </Link>
 
           {/* Desktop Navigation */}
@@ -40,7 +41,7 @@ const Navigation = () => {
                 className={cn(
                   "text-sm font-medium transition-colors hover:text-primary relative py-2",
                   isActive(item.href) 
-                    ? "text-primary after:absolute after:bottom-0 after:left-0 after:right-0 after:h-0.5 after:bg-accent" 
+                    ? "text-primary after:absolute after:bottom-0 after:left-0 after:right-0 after:h-0.5 after:bg-[hsl(47.12_72.24%_51.96%)]" 
                     : "text-foreground/80"
                 )}
               >

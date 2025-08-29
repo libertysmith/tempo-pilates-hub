@@ -37,7 +37,7 @@ const Footer = () => {
             <div>
               <h4 className="font-semibold mb-4">Contact</h4>
               <div className="text-foreground/80 space-y-2">
-                <p>123 Wellness Way<br />San Francisco, CA 94102</p>
+                <p>2225 Old Denton Rd<br />Carrollton, Texas 75006</p>
                 <p>(415) 555-0123</p>
                 <p>hello@templepilates.com</p>
               </div>

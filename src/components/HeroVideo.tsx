@@ -23,28 +23,23 @@ const HeroVideo = () => {
         </video>
         <div className="hero__overlay"></div>
       </div>
-      <div className="hero__content container">
-        <div className="text-center">
-          <h1 className="text-5xl md:text-6xl font-bold mb-6 text-foreground">
-            Lift Your Energy. Quiet Your Mind.
+        <div className="hero__content text-center text-background">
+          <h1 className="display-5 mb-6 text-background font-bold">
+            Lift Your Energy.<br />
+            <span className="text-[hsl(47.12_72.24%_51.96%)]">Quiet Your Mind.</span>
           </h1>
-          <p className="lead mb-8 max-w-xl mx-auto">
-            Beat-driven Pilates. Breath-led Yoga.
+          <p className="lead mb-8 text-background/90 max-w-md mx-auto">
+            Beat-driven Pilates and breath-led Yoga designed to harmonize your nervous system.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-            <Button asChild size="lg" variant="primary">
-              <Link to="/schedule">See Schedule</Link>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Button asChild size="lg" className="bg-[hsl(47.12_72.24%_51.96%)] text-background hover:bg-[hsl(47.12_72.24%_45.96%)] border-[hsl(47.12_72.24%_51.96%)]">
+              <Link to="/schedule">Book Your First Class</Link>
             </Button>
-            <Button asChild size="lg" variant="outline">
-              <Link to="/membership">Membership & Rates</Link>
+            <Button asChild size="lg" variant="outline" className="border-background text-background hover:bg-background hover:text-foreground">
+              <Link to="/membership">New Student Offers</Link>
             </Button>
-          </div>
-          <div className="flex flex-wrap gap-3 justify-center" aria-hidden="true">
-            <span className="tag">You Belong Here</span>
-            <span className="tag">Start where you are</span>
           </div>
         </div>
-      </div>
     </section>
   );
 };
