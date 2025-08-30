@@ -18,8 +18,8 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      {/* GitHub Pages subpath */}
-      <BrowserRouter basename="/tempo-pilates-hub">
+      {/* Custom domain => let Vite provide the correct base ('/') */}
+      <BrowserRouter basename={import.meta.env.BASE_URL}>
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/membership" element={<Membership />} />
