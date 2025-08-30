@@ -5,8 +5,8 @@ import { componentTagger } from 'lovable-tagger'
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  // IMPORTANT: repo name for GitHub Pages
-  base: '/tempo-pilates-hub/',
+  // Root domain (custom domain) => base must be '/'
+  base: '/',
   server: {
     host: '::',
     port: 8080,
