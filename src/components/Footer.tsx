@@ -39,7 +39,7 @@ const Footer = () => {
               <div className="text-foreground/80 space-y-2">
                 <p>2225 Old Denton Rd<br />Carrollton, Texas 75006</p>
                 <p>(415) 555-0123</p>
-                <p>hello@templepilates.com</p>
+                <p>Contact@temple-pilates.com</p>
               </div>
             </div>
 
