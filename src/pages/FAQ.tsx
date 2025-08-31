@@ -156,7 +156,7 @@ const FAQ = () => {
                   href="mailto:hello@tempopilates.com"
                   className="text-primary hover:text-accent transition-colors font-medium"
                 >
-                  hello@tempopilates.com →
+                  contact@tempo-pilates.com →
                 </a>
               </CardContent>
             </Card>
