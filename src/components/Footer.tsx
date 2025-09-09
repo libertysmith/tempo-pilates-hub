@@ -1,5 +1,6 @@
 import { Instagram, Facebook, Mail } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import StampLumi from '@/components/StampLumi';
 
 const Footer = () => {
   return (
@@ -68,6 +69,12 @@ const Footer = () => {
               <a href="/privacy" className="hover:text-primary transition-colors">Privacy Policy</a>
               <a href="/terms" className="hover:text-primary transition-colors">Terms of Service</a>
             </div>
+            <div className="ml-auto hidden sm:inline-flex">
+              <StampLumi width={200} />
+            </div>
+          </div>
+          <div className="w-full sm:hidden mt-2 flex justify-center">
+            <StampLumi width={180} />
           </div>
         </div>
       </div>
