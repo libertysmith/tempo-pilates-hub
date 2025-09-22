@@ -8,7 +8,7 @@ const FAQ = () => {
     {
       id: "what-to-bring",
       question: "What should I bring to class?",
-      answer: "Just bring yourself and water! We provide high-quality mats, props, and towels. Wear comfortable, stretchy clothing that you can move freely in. Grippy socks are required for Pilates classes."
+      answer: "Bring yourself, water, and a pair of grippy Pilates socks (required for all classes). We also recommend a small towel. All other props, such as weights, circles, and balls, will be provided by the studio."
     },
     {
       id: "new-to-class",
