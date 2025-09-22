@@ -34,11 +34,11 @@ const Terms = () => {
                 <h2 className="text-2xl font-bold mb-4" style={{ color: '#62A87C' }}>
                   MEMBER SERVICES AND POLICIES
                 </h2>
-                <ul className="mb-8 space-y-2" style={{ color: '#615055' }}>
-                  <li><strong>Cancellation Policy</strong>: You must cancel class at least 12 hours in advance, or the class credit will be deducted. Members will be charged a $15 late cancellation fee. Switching time slots within 12 hours counts as a late cancellation.</li>
-                  <li><strong>No Show Fee</strong>: Members who do not show up for a class will be charged a $25 fee.</li>
-                  <li><strong>Reservation Policy</strong>: You must be present and checked in 5 minutes before class begins, or your spot may be given to someone on the waitlist.</li>
-                </ul>
+                 <ul className="mb-8 space-y-2" style={{ color: '#615055' }}>
+                   <li><strong>Cancellation Policy</strong>: You must cancel class at least 12 hours in advance, or the class credit will be deducted. Members will be charged a $15 late cancellation fee. Switching time slots within 12 hours counts as a late cancellation.</li>
+                   <li><strong>No Show Fee</strong>: Members who do not show up for a class will be charged a $25 fee.</li>
+                   <li><strong>Reservation Policy</strong>: You must be present and checked in 5 minutes before class begins, or your spot may be given to someone on the waitlist.</li>
+                 </ul>
 
                 <h2 className="text-2xl font-bold mb-4" style={{ color: '#62A87C' }}>
                   PERSONAL PROPERTY
@@ -59,24 +59,24 @@ const Terms = () => {
                 <h2 className="text-2xl font-bold mb-4" style={{ color: '#62A87C' }}>
                   HEALTH + SAFETY DISCLAIMER
                 </h2>
-                <p className="mb-8" style={{ color: '#615055' }}>
-                  Before participating, consult your physician to ensure you are healthy enough for exercise. Always follow safety instructions and use equipment properly. Stop immediately if you feel pain, dizziness, or discomfort. By participating, you accept all risks of injury.
-                </p>
+                 <p className="mb-8" style={{ color: '#615055' }}>
+                   Before participating, consult your physician to ensure you are healthy enough for exercise. Always follow safety instructions and use equipment properly. Stop immediately if you feel pain, dizziness, or discomfort. By participating, you accept all risks of injury.
+                 </p>
 
                 <h2 className="text-2xl font-bold mb-4" style={{ color: '#62A87C' }}>
                   REFUND POLICY
                 </h2>
-                <ul className="mb-8 space-y-2" style={{ color: '#615055' }}>
-                  <li>Classes and memberships are non-refundable.</li>
-                  <li>Retail items: unused merchandise may be exchanged or credited within 14 days; store credit only within 30 days with a receipt.</li>
-                </ul>
+                 <ul className="mb-8 space-y-2" style={{ color: '#615055' }}>
+                   <li>Classes and memberships are non-refundable.</li>
+                   <li>Retail items: unused merchandise may be exchanged or credited within 14 days, store credit only within 30 days with a receipt.</li>
+                 </ul>
 
                 <h2 className="text-2xl font-bold mb-4" style={{ color: '#62A87C' }}>
                   TERMINATION
                 </h2>
-                <p className="mb-8" style={{ color: '#615055' }}>
-                  We may terminate your membership or access without notice if you breach these terms. Certain provisions (e.g., liability, indemnity) survive termination.
-                </p>
+                 <p className="mb-8" style={{ color: '#615055' }}>
+                   We may terminate your membership or access without notice if you breach these terms. Certain provisions such as liability and indemnity survive termination.
+                 </p>
 
                 <h2 className="text-2xl font-bold mb-4" style={{ color: '#62A87C' }}>
                   THIRD-PARTY SITES
@@ -102,9 +102,9 @@ const Terms = () => {
                 <h2 className="text-2xl font-bold mb-4" style={{ color: '#62A87C' }}>
                   ELIGIBILITY
                 </h2>
-                <p className="mb-8" style={{ color: '#615055' }}>
-                  You must be 16 years or older to use our services. Minors (16–18) may join only with parent/guardian involvement.
-                </p>
+                 <p className="mb-8" style={{ color: '#615055' }}>
+                   You must be 16 years or older to use our services. Minors aged 16 to 18 may join only with parent/guardian involvement.
+                 </p>
 
                 <h2 className="text-2xl font-bold mb-4" style={{ color: '#62A87C' }}>
                   RELEASE AND INDEMNITY

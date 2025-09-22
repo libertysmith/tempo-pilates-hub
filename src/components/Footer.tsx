@@ -65,7 +65,7 @@ const Footer = () => {
         <div className="border-t border-accent/20 py-6">
           <div className="flex flex-col sm:flex-row justify-between items-center text-sm text-foreground/60">
             <p>&copy; 2025 Tempo Pilates. All rights reserved.</p>
-            <div className="flex space-x-6 mt-4 sm:mt-0">
+            <div className="flex space-x-6 mt-4 sm:mt-0 pl-8">
               <a href="/privacy" className="hover:text-primary transition-colors">Privacy Policy</a>
               <a href="/terms" className="hover:text-primary transition-colors">Terms of Service</a>
             </div>

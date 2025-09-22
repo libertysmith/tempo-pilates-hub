@@ -38,12 +38,12 @@ const Privacy = () => {
                 <h2 className="text-2xl font-bold mb-4" style={{ color: '#62A87C' }}>
                   INFORMATION WE COLLECT
                 </h2>
-                <ul className="mb-8 space-y-2" style={{ color: '#615055' }}>
-                  <li>Personal information (name, email, contact details, date of birth, payment details).</li>
-                  <li>Health and participation information provided for safe class instruction.</li>
-                  <li>Usage information such as bookings, attendance, and communications.</li>
-                  <li>Optional: profile photo for identification purposes.</li>
-                </ul>
+                 <ul className="mb-8 space-y-2" style={{ color: '#615055' }}>
+                   <li>Personal information such as name, email, contact details, date of birth, and payment details.</li>
+                   <li>Health and participation information provided for safe class instruction.</li>
+                   <li>Usage information such as bookings, attendance, and communications.</li>
+                   <li>Optional: profile photo for identification purposes.</li>
+                 </ul>
 
                 <h2 className="text-2xl font-bold mb-4" style={{ color: '#62A87C' }}>
                   HOW WE USE YOUR INFORMATION

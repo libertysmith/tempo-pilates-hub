@@ -8,17 +8,12 @@ const FAQ = () => {
     {
       id: "what-to-bring",
       question: "What should I bring to class?",
-      answer: "Just bring yourself and water! We provide high-quality mats, props, and towels. Wear comfortable, stretchy clothing that you can move freely in. Grippy socks are recommended for Pilates classes."
+      answer: "Just bring yourself and water! We provide high-quality mats, props, and towels. Wear comfortable, stretchy clothing that you can move freely in. Grippy socks are required for Pilates classes."
     },
     {
       id: "new-to-class",
       question: "I'm new to Pilates/Yoga. Can I still attend?",
-      answer: "Absolutely! All of our classes welcome beginners. Our instructors provide modifications for every exercise, and we encourage you to listen to your body and work at your own pace. Consider starting with our New Student Special to ease into your practice."
-    },
-    {
-      id: "music-volume",
-      question: "How loud is the music?",
-      answer: "Our music is thoughtfully calibrated for each practice. Pilates classes feature energizing beats at a moderate volume to support focus, while yoga classes use softer, grounding soundscapes. If you have hearing sensitivities, please let your instructor know—we're happy to accommodate."
+      answer: "Absolutely! All of our classes welcome beginners. Our instructors provide modifications for every exercise, and we encourage you to listen to your body and work at your own pace."
     },
     {
       id: "pregnancy-postpartum",
@@ -28,7 +23,7 @@ const FAQ = () => {
     {
       id: "booking-cancellation",
       question: "How do I book classes and what's the cancellation policy?",
-      answer: "Book through our online scheduling system. We require 12+ hours notice for cancellations to receive full credit. Late cancellations may incur a fee, and no-shows forfeit the class. This policy helps us manage our small class sizes fairly."
+      answer: "Book through our online scheduling system. We require 12+ hours notice for cancellations to receive full credit. Cancellations made within 12 hours of class will incur a $15 late fee, and no-shows forfeit the class. This policy helps us manage our small class sizes fairly."
     },
     {
       id: "late-arrival",
@@ -38,7 +33,7 @@ const FAQ = () => {
     {
       id: "membership-options",
       question: "What membership and class pack options do you offer?",
-      answer: "We offer flexible options: drop-in classes ($35), 10-class packs ($290, 3-month expiry), 20-class packs ($520, 6-month expiry), and unlimited monthly memberships ($189). New students can try our special introductory offers."
+      answer: "We offer flexible options: drop-in classes ($35), 10-class packs ($290, 3-month expiry), 20-class packs ($520, 6-month expiry), and unlimited monthly memberships ($189). All Pilates classes at Tempo Pilates include props such as weights, a circle, and a ball."
     },
     {
       id: "community-events",
@@ -164,54 +159,6 @@ const FAQ = () => {
         </div>
       </section>
 
-      {/* Community Guidelines */}
-      <section className="section">
-        <div className="container max-w-4xl">
-          <Card className="bg-secondary/20 border-accent/20">
-            <CardContent className="p-8">
-              <h3 className="text-2xl font-bold mb-6 text-center">Community Guidelines</h3>
-              <div className="grid md:grid-cols-2 gap-8">
-                <div>
-                  <h4 className="font-semibold mb-3 text-foreground">Respect & Inclusion</h4>
-                  <ul className="space-y-2 text-sm text-foreground/80">
-                    <li>• Honor all bodies, identities, and experience levels</li>
-                    <li>• Use inclusive language and avoid assumptions</li>
-                    <li>• Give others space to practice authentically</li>
-                    <li>• Ask before offering unsolicited advice</li>
-                  </ul>
-                </div>
-                <div>
-                  <h4 className="font-semibold mb-3 text-foreground">Studio Etiquette</h4>
-                  <ul className="space-y-2 text-sm text-foreground/80">
-                    <li>• Arrive 10-15 minutes early to settle in</li>
-                    <li>• Keep phones on silent and avoid usage during class</li>
-                    <li>• Clean props and equipment after use</li>
-                    <li>• Practice mindful conversation in shared spaces</li>
-                  </ul>
-                </div>
-                <div>
-                  <h4 className="font-semibold mb-3 text-foreground">Wellness First</h4>
-                  <ul className="space-y-2 text-sm text-foreground/80">
-                    <li>• Listen to your body and modify as needed</li>
-                    <li>• Communicate injuries or concerns to instructors</li>
-                    <li>• Avoid fragrant products to support sensitive community members</li>
-                    <li>• Stay home if you're feeling unwell</li>
-                  </ul>
-                </div>
-                <div>
-                  <h4 className="font-semibold mb-3 text-foreground">Community Care</h4>
-                  <ul className="space-y-2 text-sm text-foreground/80">
-                    <li>• Support local and AAPI-owned businesses we feature</li>
-                    <li>• Share the space mindfully during busy times</li>
-                    <li>• Celebrate others' growth and achievements</li>
-                    <li>• Help maintain our welcoming environment</li>
-                  </ul>
-                </div>
-              </div>
-            </CardContent>
-          </Card>
-        </div>
-      </section>
     </Layout>
   );
 };

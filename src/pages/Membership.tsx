@@ -91,7 +91,7 @@ const Membership = () => {
         <div className="container text-center">
           <h1 className="text-5xl font-bold mb-6">Membership & Class Rates</h1>
           <p className="text-xl text-foreground/80 max-w-2xl mx-auto mb-8">
-            Choose the perfect option for your practice. All memberships include access to our full range of classes and community amenities.
+            Choose the perfect option for your practice. All memberships include access to our full range of classes and community amenities. All Pilates classes at Tempo Pilates include props such as weights, a circle, and a ball.
           </p>
           <div className="flex flex-wrap gap-3 justify-center">
             <span className="tag">You Belong Here</span>
@@ -198,14 +198,14 @@ const Membership = () => {
                     <li>• No extensions or refunds on expired classes</li>
                   </ul>
                 </div>
-                <div>
-                  <h4 className="font-semibold mb-2 text-foreground">Cancellation Policy</h4>
-                  <ul className="space-y-1">
-                    <li>• Cancel 12+ hours in advance for full credit</li>
-                    <li>• Late cancellation fee may apply</li>
-                    <li>• No-shows forfeit the class</li>
-                  </ul>
-                </div>
+                 <div>
+                   <h4 className="font-semibold mb-2 text-foreground">Cancellation Policy</h4>
+                   <ul className="space-y-1">
+                     <li>• Cancel 12+ hours in advance for full credit</li>
+                     <li>• Cancellations made within 12 hours of class will incur a $15 late fee</li>
+                     <li>• No-shows forfeit the class</li>
+                   </ul>
+                 </div>
                 <div>
                   <h4 className="font-semibold mb-2 text-foreground">Monthly Memberships</h4>
                   <ul className="space-y-1">
